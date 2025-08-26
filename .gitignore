@@ -1,0 +1,26 @@
+# Ignore build artifacts, binaries, and OS files
+*.bin
+*.sys
+*.o
+*.obj
+*.exe
+*.img
+*.iso
+*.dsk
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Ignore editor/project files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Ignore compiled kernels in subfolders
+Main Code/*/*.sys
+
+# Ignore config files if generated
+Library/conf.txt
